@@ -44,7 +44,7 @@ elif(golongan == 'B'):
     JumlahTunjanganAnak = 8500000 * TunjanganAnak
     Gajikotor = 8500000 + JumlahTunjanganMenikah + JumlahTunjanganAnak
     JumlahPotongan = 2. / 100 * Gajikotor
-    Gajibersih = GajiKotor - JumlahPotongan
+    Gajibersih = Gajikotor - JumlahPotongan
 elif(golongan == 'C'):
     Gajipokok = 7000000
     Potongan = 1.5
